@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/xyzs",
+      "handler": "xyz.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/xyzs/count",
+      "handler": "xyz.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/xyzs/:id",
+      "handler": "xyz.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/xyzs",
+      "handler": "xyz.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/xyzs/:id",
+      "handler": "xyz.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/xyzs/:id",
+      "handler": "xyz.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
