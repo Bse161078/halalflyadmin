@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "name": "Hotels",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "star_rating": {
+      "type": "float"
+    },
+    "location": {
+      "type": "string"
+    },
+    "distance_from_kaaba": {
+      "type": "string"
+    },
+    "price_per_night": {
+      "type": "float"
+    },
+    "rating": {
+      "type": "float"
+    },
+    "category_rating": {
+      "type": "json"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "hotelPackages": {
+      "type": "enumeration",
+      "enum": [
+        "UmrahGoLite",
+        "UmrahGo",
+        "UmrahPrime"
+      ]
+    },
+    "distanceFromMadine": {
+      "type": "string"
+    },
+    "date_drom_to": {
+      "type": "json"
+    }
+  }
+}

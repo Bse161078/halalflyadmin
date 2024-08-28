@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "travel_cards",
+  "info": {
+    "name": "TravelCard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "label": {
+      "type": "string"
+    },
+    "destinations": {
+      "type": "string"
+    },
+    "price": {
+      "type": "component",
+      "repeatable": true,
+      "component": "currency.price"
+    },
+    "pricingNote": {
+      "type": "string"
+    }
+  }
+}

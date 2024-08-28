@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "xyzs",
   "info": {
-    "name": "xyz"
+    "name": "tripOptions",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,8 +12,42 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "tripTypes": {
+      "type": "enumeration",
+      "enum": [
+        "Adventure",
+        "Relaxation",
+        "Holiday",
+        "Test"
+      ]
+    },
+    "city": {
+      "type": "enumeration",
+      "enum": [
+        "Hamburg",
+        "Leverkusen",
+        "London",
+        "Islamabad"
+      ]
+    },
+    "package": {
+      "type": "enumeration",
+      "enum": [
+        "tier1",
+        "tier2"
+      ],
+      "required": true
+    },
+    "roomType": {
+      "type": "enumeration",
+      "enum": [
+        "Single",
+        "Double",
+        "Triple"
+      ]
+    },
+    "departureDate": {
+      "type": "json"
     }
   }
 }

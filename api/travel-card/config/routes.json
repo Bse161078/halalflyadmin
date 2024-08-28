@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/travel-cards",
+      "handler": "travel-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/travel-cards/count",
+      "handler": "travel-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/travel-cards/:id",
+      "handler": "travel-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/travel-cards",
+      "handler": "travel-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/travel-cards/:id",
+      "handler": "travel-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/travel-cards/:id",
+      "handler": "travel-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
