@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_currency_prices",
+  "info": {
+    "name": "price",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "AED",
+        "USD",
+        "Euro",
+        "Pound"
+      ]
+    },
+    "value": {
+      "type": "float"
+    }
+  }
+}
