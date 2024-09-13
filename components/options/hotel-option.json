@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_options_hotel_options",
+  "info": {
+    "name": "HotelOption",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HotelNames": {
+      "type": "enumeration",
+      "enum": [
+        "Marriot",
+        "Lexus",
+        "Serena"
+      ]
+    },
+    "HotelRatings": {
+      "type": "decimal",
+      "max": 10,
+      "min": 1
+    },
+    "HotelStars": {
+      "type": "integer",
+      "max": 5,
+      "min": 1,
+      "required": true
+    }
+  }
+}

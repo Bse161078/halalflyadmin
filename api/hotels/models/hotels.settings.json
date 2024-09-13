@@ -12,23 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "star_rating": {
-      "type": "float"
-    },
     "location": {
       "type": "string"
     },
     "distance_from_kaaba": {
       "type": "string"
-    },
-    "price_per_night": {
-      "type": "float"
-    },
-    "rating": {
-      "type": "float"
     },
     "category_rating": {
       "type": "json"
@@ -48,19 +36,31 @@
       "required": false,
       "pluginOptions": {}
     },
-    "hotelPackages": {
-      "type": "enumeration",
-      "enum": [
-        "UmrahGoLite",
-        "UmrahGo",
-        "UmrahPrime"
-      ]
-    },
-    "distanceFromMadine": {
+    "distanceFromMadina": {
       "type": "string"
     },
-    "date_drom_to": {
-      "type": "json"
+    "description": {
+      "type": "text"
+    },
+    "hotelTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.hotel-option"
+    },
+    "hotelPrice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "currency.price"
+    },
+    "Packages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.package-options"
+    },
+    "RoomTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.room-options"
     }
   }
 }
