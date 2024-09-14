@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_options_hotel_options",
+  "info": {
+    "name": "HotelOptions",
+    "icon": "hotel"
+  },
+  "options": {},
+  "attributes": {
+    "HotelNames": {
+      "type": "enumeration",
+      "enum": [
+        "Marriot",
+        "Lexus",
+        "Serena",
+        "TrumpHotel"
+      ]
+    },
+    "HotelRatings": {
+      "type": "float",
+      "max": 10,
+      "min": 1
+    },
+    "HotelStars": {
+      "type": "integer",
+      "max": 5,
+      "min": 1
+    }
+  }
+}

@@ -12,42 +12,28 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "tripTypes": {
-      "type": "enumeration",
-      "enum": [
-        "Adventure",
-        "Relaxation",
-        "Holiday",
-        "Test"
-      ]
-    },
-    "city": {
-      "type": "enumeration",
-      "enum": [
-        "Hamburg",
-        "Leverkusen",
-        "London",
-        "Islamabad"
-      ]
-    },
-    "package": {
-      "type": "enumeration",
-      "enum": [
-        "tier1",
-        "tier2"
-      ],
-      "required": true
-    },
-    "roomType": {
-      "type": "enumeration",
-      "enum": [
-        "Single",
-        "Double",
-        "Triple"
-      ]
-    },
     "departureDate": {
       "type": "json"
+    },
+    "tripTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.trip-options"
+    },
+    "city": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.city-options"
+    },
+    "roomType": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.room-options"
+    },
+    "package": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.package-options"
     }
   }
 }

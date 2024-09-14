@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "travel_cards",
   "info": {
-    "name": "TravelCard"
+    "name": "TravelCard",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -39,6 +40,41 @@
     },
     "pricingNote": {
       "type": "string"
+    },
+    "flightIncluded": {
+      "type": "boolean",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "packageDateRange": {
+      "type": "json"
+    },
+    "city": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.city-options"
+    },
+    "hotelTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.hotel-options"
+    },
+    "packages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.package-options"
+    },
+    "roomTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.room-options"
+    },
+    "tripTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.trip-options"
     }
   }
 }

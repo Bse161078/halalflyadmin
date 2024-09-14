@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_options_city_options",
+  "info": {
+    "name": "CityOptions",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "CityTypes": {
+      "type": "enumeration",
+      "enum": [
+        "Berlin",
+        "Frankfurt",
+        "Wien",
+        "London",
+        "Brussell"
+      ]
+    }
+  }
+}

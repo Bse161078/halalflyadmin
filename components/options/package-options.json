@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_options_package_options",
+  "info": {
+    "name": "PackageOptions",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "PackageTypes": {
+      "type": "enumeration",
+      "enum": [
+        "Package1",
+        "Package2",
+        "Package3"
+      ]
+    }
+  }
+}
