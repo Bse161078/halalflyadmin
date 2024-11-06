@@ -1,8 +1,9 @@
 {
   "collectionName": "components_options_trip_options",
   "info": {
-    "name": "TripOptions",
-    "icon": "align-justify"
+    "name": "TripOptionsForUmrah",
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,10 +11,11 @@
       "type": "enumeration",
       "enum": [
         "Umrah",
-        "UmrahGo",
-        "UmrahLite",
-        "UmrahPrime",
-        "Hajj2025"
+        "LastMinute",
+        "Ramadan",
+        "UmrahPlus",
+        "LandPackage",
+        "IME_Reisen"
       ]
     }
   }

@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "hotels",
   "info": {
-    "name": "Hotels",
+    "name": "LandPackage",
     "description": ""
   },
   "options": {
@@ -20,9 +20,6 @@
     },
     "distance_from_kaaba": {
       "type": "string"
-    },
-    "category_rating": {
-      "type": "json"
     },
     "tag": {
       "type": "string"
@@ -50,23 +47,67 @@
       "repeatable": true,
       "component": "options.hotel-options"
     },
-    "hotelPrice": {
+    "description": {
+      "type": "text"
+    },
+    "transferDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.transfer-component"
+    },
+    "activityDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.activity-component"
+    },
+    "packages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "options.land-packages"
+    },
+    "tripTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.trip-type-for-land"
+    },
+    "accommodationOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.accommodation-options"
+    },
+    "PackagePrice": {
       "type": "component",
       "repeatable": true,
       "component": "currency.price"
     },
-    "description": {
-      "type": "text"
-    },
-    "roomTypes": {
+    "cities": {
       "type": "component",
       "repeatable": true,
-      "component": "options.room-options"
+      "component": "options.city-options-for-land"
     },
-    "packages": {
+    "Sicherungsschein": {
+      "type": "component",
+      "repeatable": false,
+      "component": "currency.sicherungsschein"
+    },
+    "insurance": {
       "type": "component",
       "repeatable": true,
-      "component": "options.package-options"
+      "component": "options.insurances"
+    },
+    "flightDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.flight-component"
+    },
+    "InfantPrice": {
+      "type": "decimal"
+    },
+    "DepositPrice": {
+      "type": "float"
+    },
+    "NeedInsurance": {
+      "type": "boolean"
     }
   }
 }

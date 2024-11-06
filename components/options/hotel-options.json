@@ -2,18 +2,29 @@
   "collectionName": "components_options_hotel_options",
   "info": {
     "name": "HotelOptions",
-    "icon": "hotel"
+    "icon": "hotel",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "HotelNames": {
       "type": "enumeration",
       "enum": [
-        "Marriot",
-        "Lexus",
-        "Serena",
-        "TrumpHotel"
-      ]
+        "Voco",
+        "Maien",
+        "Sheraton",
+        "Anjum",
+        "Manarat",
+        "AnsarGoldenTulip",
+        "Al_Ebba",
+        "Rua_al_Hijra",
+        "Le_Meridien",
+        "Addre_JMO",
+        "Hilton_Convention",
+        "Pullmann_Zam_Zam"
+      ],
+      "default": "Voco",
+      "unique": false
     },
     "HotelRatings": {
       "type": "float",
@@ -24,6 +35,38 @@
       "type": "integer",
       "max": 5,
       "min": 1
+    },
+    "hotelRoomPrice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.room-options"
+    },
+    "totalDays": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "enumeration",
+      "enum": [
+        "Makkah",
+        "Madina"
+      ]
+    },
+    "mealPlans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.meal-plans"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

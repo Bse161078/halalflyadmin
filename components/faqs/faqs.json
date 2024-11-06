@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_faqs_faqs",
+  "info": {
+    "name": "FAQS",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string",
+      "required": true
+    },
+    "Answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

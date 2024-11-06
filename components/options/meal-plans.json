@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_options_meal_plans",
+  "info": {
+    "name": "MealPlans",
+    "icon": "dumpster"
+  },
+  "options": {},
+  "attributes": {
+    "Mean_Plans": {
+      "type": "enumeration",
+      "enum": [
+        "Hotelonly",
+        "Breakfast",
+        "Halfboard"
+      ]
+    },
+    "Meal_Price": {
+      "type": "integer"
+    }
+  }
+}

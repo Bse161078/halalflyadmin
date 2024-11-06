@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/land-coupons",
+      "handler": "land-coupon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/land-coupons/count",
+      "handler": "land-coupon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/land-coupons/:id",
+      "handler": "land-coupon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/land-coupons",
+      "handler": "land-coupon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/land-coupons/:id",
+      "handler": "land-coupon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/land-coupons/:id",
+      "handler": "land-coupon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

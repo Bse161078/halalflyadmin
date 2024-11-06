@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "land_coupons",
+  "info": {
+    "name": "LandCoupon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CouponName": {
+      "type": "string"
+    },
+    "DsicountPrice": {
+      "type": "float"
+    }
+  }
+}

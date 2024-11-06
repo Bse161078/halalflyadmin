@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/xyzs",
-      "handler": "xyz.find",
+      "path": "/travel-forms",
+      "handler": "travel-form.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/xyzs/count",
-      "handler": "xyz.count",
+      "path": "/travel-forms/count",
+      "handler": "travel-form.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/xyzs/:id",
-      "handler": "xyz.findOne",
+      "path": "/travel-forms/:id",
+      "handler": "travel-form.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/xyzs",
-      "handler": "xyz.create",
+      "path": "/travel-forms",
+      "handler": "travel-form.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/xyzs/:id",
-      "handler": "xyz.update",
+      "path": "/travel-forms/:id",
+      "handler": "travel-form.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/xyzs/:id",
-      "handler": "xyz.delete",
+      "path": "/travel-forms/:id",
+      "handler": "travel-form.delete",
       "config": {
         "policies": []
       }

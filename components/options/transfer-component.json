@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_options_transfer_components",
+  "info": {
+    "name": "transferIncluded",
+    "icon": "angle-double-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isTransferIncluded": {
+      "type": "boolean"
+    },
+    "Price": {
+      "type": "float"
+    },
+    "Transport": {
+      "type": "enumeration",
+      "enum": [
+        "AIRPORT_PICKUP",
+        "AIRPORT_DROP",
+        "HOTEL_SHUTTLE",
+        "LUXURY_VEHICLE",
+        "PRIVATE_TRANSFER",
+        "TRAIN_TRAIN",
+        "Rail_and_Fly__99",
+        "WHEELCHAIR_ACCESSIBLE",
+        "PILGRIM_GUIDE_INCLUDED",
+        "CHILD_SEAT_AVAILABLE"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_our_services_our_services",
+  "info": {
+    "name": "OurServices",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "backgroundColor": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

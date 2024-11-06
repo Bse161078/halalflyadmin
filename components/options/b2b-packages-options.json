@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_options_b2b_packages_options",
+  "info": {
+    "name": "b2bPackagesOptions",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "PackagesTypes": {
+      "type": "enumeration",
+      "enum": [
+        "Economy",
+        "Comfort",
+        "Luxury"
+      ]
+    }
+  }
+}

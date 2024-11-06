@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_currency_sicherungsscheins",
+  "info": {
+    "name": "Sicherungsschein",
+    "icon": "shield-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Marge": {
+      "type": "boolean"
+    },
+    "Amount": {
+      "type": "integer"
+    }
+  }
+}

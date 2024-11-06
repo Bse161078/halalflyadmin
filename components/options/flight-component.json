@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_options_flight_component_s",
+  "info": {
+    "name": "flightIncluded",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isFlightIncluded": {
+      "type": "boolean"
+    },
+    "Price": {
+      "type": "float"
+    },
+    "flights": {
+      "type": "enumeration",
+      "enum": [
+        "ONE_WAY",
+        "ROUND_TRIP",
+        "MULTI_CITY",
+        "ECONOMY_CLASS",
+        "BUSINESS_CLASS",
+        "FIRST_CLASS",
+        "DIRECT_FLIGHT"
+      ]
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "departure": {
+      "type": "string"
+    },
+    "arrival": {
+      "type": "string"
+    }
+  }
+}

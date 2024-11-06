@@ -1,19 +1,21 @@
 {
   "collectionName": "components_options_city_options",
   "info": {
-    "name": "CityOptions",
-    "icon": "align-left"
+    "name": "CityOptionsForUmrah",
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "CityTypes": {
       "type": "enumeration",
       "enum": [
+        "Koeln",
         "Berlin",
         "Frankfurt",
+        "Brussel",
         "Wien",
-        "London",
-        "Brussell"
+        "Zurich"
       ]
     }
   }

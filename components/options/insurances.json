@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_options_insurances",
+  "info": {
+    "name": "Insurances",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "InsuranceDetails": {
+      "type": "string"
+    },
+    "InsurancePrice": {
+      "type": "integer"
+    },
+    "InsuranceType": {
+      "type": "enumeration",
+      "enum": [
+        "FamilyInsurance",
+        "SingleInsurance",
+        "DoubleInsurance",
+        "TripleInsurance"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_options_activity_components",
+  "info": {
+    "name": "activityIncluded",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isActivityIncluded": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "float"
+    },
+    "activities": {
+      "type": "enumeration",
+      "enum": [
+        "GUIDED_TOUR",
+        "UMRAH_GUIDE",
+        "HAJJ_GUIDE",
+        "SHOPPING_TOUR",
+        "CULTURAL_EVENTS"
+      ]
+    }
+  }
+}

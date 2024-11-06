@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_options_travel_secures",
+  "info": {
+    "name": "TravelSecure",
+    "icon": "user-shield"
+  },
+  "options": {},
+  "attributes": {
+    "Marge": {
+      "type": "boolean"
+    },
+    "Amount": {
+      "type": "integer"
+    }
+  }
+}

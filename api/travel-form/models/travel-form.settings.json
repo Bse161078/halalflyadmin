@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "travel_forms",
+  "info": {
+    "name": "TravelForm",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NationalityAndVisaType": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nationality.nationality"
+    },
+    "TravelVisaDecription": {
+      "type": "text"
+    },
+    "umrahVisaNationality": {
+      "type": "text"
+    },
+    "tourismVisaNationality": {
+      "type": "text"
+    }
+  }
+}

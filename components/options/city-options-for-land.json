@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_options_city_options_for_lands",
+  "info": {
+    "name": "CityOptionsForLand",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "cityTypes": {
+      "type": "enumeration",
+      "enum": [
+        "Makkah",
+        "Madina",
+        "AlUla"
+      ]
+    }
+  }
+}

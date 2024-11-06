@@ -2,21 +2,22 @@
   "collectionName": "components_currency_prices",
   "info": {
     "name": "price",
-    "icon": "money-bill"
+    "icon": "money-bill",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "currency": {
       "type": "enumeration",
       "enum": [
-        "AED",
-        "USD",
-        "Euro",
-        "Pound"
+        "aed",
+        "usd",
+        "eur",
+        "gbp"
       ]
     },
     "value": {
-      "type": "float"
+      "type": "string"
     }
   }
 }

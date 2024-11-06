@@ -1,18 +1,36 @@
 {
   "collectionName": "components_options_package_options",
   "info": {
-    "name": "PackageOptions",
-    "icon": "align-center"
+    "name": "UmrahPackages",
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "PackageTypes": {
       "type": "enumeration",
       "enum": [
-        "Package1",
-        "Package2",
-        "Package3"
+        "GoUmrah_9_Tage",
+        "GoUmrah_10_Tage",
+        "GoUmrah_11_Tage",
+        "Prime_9_Tage",
+        "Prime_10_Tage",
+        "Prime_11_Tage",
+        "MarceL_Krass",
+        "Days_9_22_12_2024",
+        "Days_9_27_12_2024",
+        "Days_9_28_12_2024"
       ]
+    },
+    "Include": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.package-inclusion"
+    },
+    "Exclusion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.package-exclusion"
     }
   }
 }

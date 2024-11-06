@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_options_trip_type_for_lands",
+  "info": {
+    "name": "TripOptionsForLand",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TripTypes": {
+      "type": "enumeration",
+      "enum": [
+        "CulturalTour",
+        "AdventureTour",
+        "HistoricalTour",
+        "CitySightseeing",
+        "NatureTour"
+      ]
+    }
+  }
+}

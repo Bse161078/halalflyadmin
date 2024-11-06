@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_options_package_inclusions",
+  "info": {
+    "name": "PackageInclusion",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Include": {
+      "type": "string"
+    },
+    "IncludeIcons": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

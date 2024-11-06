@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "b2_b_packages",
+  "info": {
+    "name": "B2BPackages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CityType": {
+      "type": "string"
+    },
+    "dates": {
+      "type": "json"
+    }
+  }
+}

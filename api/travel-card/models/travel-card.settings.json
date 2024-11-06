@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "travel_cards",
   "info": {
-    "name": "TravelCard",
+    "name": "UmrahPackages",
     "description": ""
   },
   "options": {
@@ -41,40 +41,65 @@
     "pricingNote": {
       "type": "string"
     },
-    "flightIncluded": {
-      "type": "boolean",
-      "required": true
-    },
     "description": {
       "type": "text"
     },
     "packageDateRange": {
       "type": "json"
     },
-    "city": {
-      "type": "component",
-      "repeatable": true,
-      "component": "options.city-options"
-    },
     "hotelTypes": {
       "type": "component",
       "repeatable": true,
-      "component": "options.hotel-options"
+      "component": "options.hotel-options",
+      "required": true
     },
     "packages": {
       "type": "component",
-      "repeatable": true,
-      "component": "options.package-options"
-    },
-    "roomTypes": {
-      "type": "component",
-      "repeatable": true,
-      "component": "options.room-options"
+      "repeatable": false,
+      "component": "options.package-options",
+      "required": true
     },
     "tripTypes": {
       "type": "component",
       "repeatable": true,
-      "component": "options.trip-options"
+      "component": "options.trip-options",
+      "required": true
+    },
+    "flightDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.flight-component"
+    },
+    "activityDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.activity-component"
+    },
+    "transferDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.transfer-component"
+    },
+    "cities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.city-options",
+      "required": false
+    },
+    "insurance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "options.insurances"
+    },
+    "DepositPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "InfantPrice": {
+      "type": "integer"
+    },
+    "NeedInsurance": {
+      "type": "boolean"
     }
   }
 }

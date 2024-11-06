@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_options_accommodation_options",
+  "info": {
+    "name": "accommodationOptions",
+    "icon": "universal-access"
+  },
+  "options": {},
+  "attributes": {
+    "accommodationOptions": {
+      "type": "enumeration",
+      "enum": [
+        "Single",
+        "Couple",
+        "Group",
+        "Family",
+        "Friends",
+        "SolowithSharedRoom",
+        "Business",
+        "LuxuryCouple",
+        "CorporateGroup",
+        "VIP"
+      ]
+    }
+  }
+}
