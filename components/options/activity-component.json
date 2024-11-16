@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "isActivityIncluded": {
-      "type": "boolean"
-    },
     "price": {
       "type": "float"
     },

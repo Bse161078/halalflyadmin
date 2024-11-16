@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "isFlightIncluded": {
-      "type": "boolean"
-    },
     "Price": {
       "type": "float"
     },
@@ -36,12 +33,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "departure": {
-      "type": "string"
-    },
-    "arrival": {
-      "type": "string"
     }
   }
 }

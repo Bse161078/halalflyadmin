@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_details_manager_details",
+  "info": {
+    "name": "ManagerDetails",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "PhoneNo": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "ZipCode": {
+      "type": "string"
+    }
+  }
+}

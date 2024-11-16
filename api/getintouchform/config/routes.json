@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/getintouchforms",
+      "handler": "getintouchform.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getintouchforms/count",
+      "handler": "getintouchform.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/getintouchforms/:id",
+      "handler": "getintouchform.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/getintouchforms",
+      "handler": "getintouchform.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/getintouchforms/:id",
+      "handler": "getintouchform.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/getintouchforms/:id",
+      "handler": "getintouchform.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

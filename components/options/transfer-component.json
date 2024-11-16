@@ -7,9 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "isTransferIncluded": {
-      "type": "boolean"
-    },
     "Price": {
       "type": "float"
     },

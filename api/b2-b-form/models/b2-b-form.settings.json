@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "b2_b_forms",
+  "info": {
+    "name": "B2BForm"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ORGANIZATION_NAME": {
+      "type": "string"
+    },
+    "ORGANIZATION_TYPE": {
+      "type": "string"
+    },
+    "ORGANIZATION_ADDRESS": {
+      "type": "string"
+    },
+    "CONTACT_NAME": {
+      "type": "string"
+    },
+    "EMAIL": {
+      "type": "string"
+    },
+    "MOBILE_NUMBER": {
+      "type": "string"
+    },
+    "SELECT_PACKAGE": {
+      "type": "string"
+    },
+    "DEPARTURE_CITY": {
+      "type": "string"
+    },
+    "SELECT_DATE": {
+      "type": "string"
+    },
+    "NUM_PILGRIMS": {
+      "type": "integer"
+    },
+    "VISA_REQUIRED": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "getintouchforms",
+  "info": {
+    "name": "GETINTOUCHFORM",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Phoneno": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "PackageType": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "DOB": {
+      "type": "string"
+    },
+    "NumberOfTraveler": {
+      "type": "integer"
+    },
+    "IsFlightIncluded": {
+      "type": "boolean"
+    },
+    "ArrivalDate": {
+      "type": "string"
+    },
+    "DepartureDate": {
+      "type": "string"
+    }
+  }
+}

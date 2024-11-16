@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_details",
+  "info": {
+    "name": "BookingDetails",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ManagerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "details.manager-details"
+    },
+    "AdultDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "details.adult-details"
+    },
+    "ContactUs": {
+      "type": "string"
+    },
+    "PaymentMethod": {
+      "type": "string"
+    },
+    "PaymentStatus": {
+      "type": "string"
+    },
+    "RoomType": {
+      "type": "string"
+    },
+    "NumOfAdults": {
+      "type": "integer"
+    }
+  }
+}

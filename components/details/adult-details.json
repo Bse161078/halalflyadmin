@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_details_adult_details",
+  "info": {
+    "name": "AdultDetails",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "FullName": {
+      "type": "string"
+    },
+    "DOB": {
+      "type": "string"
+    },
+    "Nationality": {
+      "type": "string"
+    },
+    "VisaType": {
+      "type": "string"
+    }
+  }
+}

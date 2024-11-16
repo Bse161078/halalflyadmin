@@ -85,11 +85,6 @@
       "repeatable": true,
       "component": "options.city-options-for-land"
     },
-    "Sicherungsschein": {
-      "type": "component",
-      "repeatable": false,
-      "component": "currency.sicherungsschein"
-    },
     "insurance": {
       "type": "component",
       "repeatable": true,
@@ -107,6 +102,15 @@
       "type": "float"
     },
     "NeedInsurance": {
+      "type": "boolean"
+    },
+    "NeedFlights": {
+      "type": "boolean"
+    },
+    "NeedActivity": {
+      "type": "boolean"
+    },
+    "NeedTransfer": {
       "type": "boolean"
     }
   }
